@@ -46,7 +46,7 @@ dependencies:
   permission_handler: any
   shared_preferences: any
   sqflite: any
-  tflite_flutter: any
+  tflite_flutter: 0.11.0
 
 dev_dependencies:
   flutter_test:
