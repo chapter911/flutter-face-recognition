@@ -65,6 +65,7 @@ class _AttendancePageState extends State<AttendancePage> {
         padding: const EdgeInsets.all(10),
         child: SingleChildScrollView(
           child: Column(
+            mainAxisSize: MainAxisSize.min,
             children: _employeeList,
           ),
         ),
@@ -146,6 +147,7 @@ class _AttendancePageState extends State<AttendancePage> {
                 child: Card(
                   clipBehavior: Clip.antiAlias,
                   child: Row(
+                    mainAxisSize: MainAxisSize.min,
                     children: [
                       Container(
                         padding: const EdgeInsets.all(10),
